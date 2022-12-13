@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+    box-shadow: unset !important;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: ;
+    --red: ;
+    --green: ;
+    --blue: ;
+    --sky: ;
+    --orange: ;
+    --purple: ;
+    --gray: ;
+}
+.text-main{
+    color: #5A4FCF!important;
+}
+.bg-main{
+    background-color: #5A4FCF!important;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.btnHover{
+    transition: all .2s ease;
+}
+.btnHover:hover{
+   opacity: .5;
+}
+.bg-muted{
+   background-color:#18181A !important; 
+}
+.fw-900{
+    font-weight: 900;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-600{
+    font-weight: 600;
+}
+/* --------------------
+header section start
+-------------------- */
+.menuHover:hover{
+    text-decoration: underline;
+}
+.bForm{
+    /* overflow: hidden; */
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #131315;
+    border: 0;
+    border-radius: 5px;
+}
+.bForm input{
+    height: 100% !important;
+    padding: 20px 0px 20px 20px;
+}
+.bForm button{
+    height: 100% !important;
+    position: absolute;
+    right: 0;
+    padding: 0px 40px;
+    background-color: #303033;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+.opacity-5{
+    background-color: #5a4fcf56;
+}
+/* --------------------
+header section end
+-------------------- */
+/* --------------------
+banner section start
+-------------------- */
+
+/* --------------------
+banner section end
+-------------------- */
+/* --------------------
+slider section start
+-------------------- */
+.slider{
+    background-color: #18181a;
+}
+.carousel-control-prev-icon{
+    color: red !important;
+
+}
+/* --------------------
+slider section end
+-------------------- */
+/* --------------------
+3rd section start
+-------------------- */
+
+/* --------------------
+3rd section end
+-------------------- */
+
+/* --------------------
+4th section start
+-------------------- */
+
+/* --------------------
+4th section end
+-------------------- */
+
+/* --------------------
+5th section start
+-------------------- */
+
+/* --------------------
+5th section end
+-------------------- */
+
+/* --------------------
+footer section start
+-------------------- */
+
+/* --------------------
+footer section end
+-------------------- */
