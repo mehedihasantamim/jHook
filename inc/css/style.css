@@ -43,6 +43,12 @@ ol{
 .bg-main{
     background-color: #5A4FCF!important;
 }
+.text-black{
+    color: black!important;
+}
+.bg-black{
+    background-color: black!important;
+}
 body{
     background-color: black;
     color: white;
@@ -64,6 +70,12 @@ body{
 }
 .fw-600{
     font-weight: 600;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.fs-10{
+    font-size: 10px;
 }
 /* --------------------
 header section start
@@ -121,21 +133,27 @@ slider section start
 slider section end
 -------------------- */
 /* --------------------
-3rd section start
+text section start
 -------------------- */
-
+.text-underline{
+    border-bottom: 5px solid #5A4FCF;
+}
 /* --------------------
-3rd section end
+text section end
 -------------------- */
-
 /* --------------------
-4th section start
+team section start
 -------------------- */
-
+.zoomHover{
+    transition: all .5s ease;
+}
+.zoomHover:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 /* --------------------
-4th section end
+team section end
 -------------------- */
-
 /* --------------------
 5th section start
 -------------------- */
